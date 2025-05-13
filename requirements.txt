@@ -1,0 +1,6 @@
+dash==2.18.1
+dash_bootstrap_components==1.6.0
+numpy==1.23.3
+pandas==1.5.0
+plotly==5.24.1
+python-dotenv==0.21.0
