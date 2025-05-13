@@ -14,16 +14,16 @@ import dash_bootstrap_components as dbc
 # ------------------Retrieve Data---------------------
 while True:
     try:
-        start_date = datetime(2022, 7, 1, 0, 0)  # September 1, 2022, 00:00:00 UTC
-        end_date = datetime(2022, 7, 1, 23, 59, 59)     # September 2, 2022, 00:00:00 UTC
+        start_date = datetime(2025, 1, 1, 0, 0)  # September 1, 2022, 00:00:00 UTC
+        end_date = datetime(2025, 1, 1, 23, 59, 59)     # September 2, 2022, 00:00:00 UTC
         
         # User inputs the desired hours (for example, from 10 AM to 3 PM)
         start_hour = int(input("Enter the start hour (0-23): "))  # E.g., 10
         end_hour = int(input("Enter the end hour (0-23): "))  # E.g., 15
 
         # Create start and end times with the user-provided hours
-        start_time = datetime(2022, 7, 1, start_hour, 0, 0)  # E.g., 10:00:00 AM
-        end_time = datetime(2022, 7, 1, end_hour, 59, 59)  # E.g., 3:59:59 PM
+        start_time = datetime(2025, 1, 1, start_hour, 0, 0)  # E.g., 10:00:00 AM
+        end_time = datetime(2025, 1, 1, end_hour, 59, 59)  # E.g., 3:59:59 PM
 
         # Convert to milliseconds since epoch
         start_timestamp = int(start_time.timestamp() * 1000)
