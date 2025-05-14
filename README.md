@@ -2,6 +2,10 @@
 
 CloudHeatMap is a heatmap-based visualization tool designed to monitor the health and performance of large-scale cloud systems. It visualizes key metrics like call volumes, response times, and HTTP response codes across microservices and data centers. By providing proactive monitoring capabilities, CloudHeatMap helps cloud operators identify and resolve issues before they impact system reliability and user experience.
 
+This work is presented in the FSE 2025 [Demonstration Track paper](https://conf.researchr.org/details/fse-2025/fse-2025-demonstrations/15/CloudHeatMap-Heatmap-Based-Monitoring-for-Large-Scale-Cloud-Systems), “CloudHeatMap: Heatmap-Based Monitoring for Large-Scale Cloud Systems.”
+The preprint is available [here](https://arxiv.org/abs/2410.21092).
+For more details, see the [M.Sc. thesis by Sarah Sohana (2022)](https://rshare.library.torontomu.ca/articles/thesis/Heatmap_Visualization_for_Monitoring_Health_of_a_Large-scale_Cloud_System/26052514?file=47103691).
+
 ## Features
 
 - **Interactive Heatmaps**: Visualize cloud system health and performance metrics in real time.
@@ -95,7 +99,7 @@ Enter the start hour (0-23):
 Enter the end hour (0-23):
 Enter time interval (in minutes):
 ```
-For demonstration purposes, we have included one day of data (January 1, 2025) in the data folder.
+For demonstration purposes, we have included one day of synthetic data (January 1, 2025) in the data folder.
 
 **Example input:**
 
@@ -124,3 +128,21 @@ After providing the inputs, the Dash server will start. You can view the heatmap
 CloudHeatMap calculates **combined mean** and **combined standard deviation** to aggregate performance metrics like response times across multiple microservices. This approach is crucial for understanding overall system health, where multiple microservice instances contribute to the aggregate performance.
 
 For more detailed explanations of these calculations and their application in CloudHeatMap, refer to the [M.Sc. thesis by Sarah Sohana (2022)](https://rshare.library.torontomu.ca/articles/thesis/Heatmap_Visualization_for_Monitoring_Health_of_a_Large-scale_Cloud_System/26052514?file=47103691).
+
+## Citation
+
+If you use or study the code, please cite it as follows.
+
+```bibtex
+@article{sohana2024cloudheatmap,
+  title={CloudHeatMap: Heatmap-Based Monitoring for Large-Scale Cloud Systems},
+  author={Sarah Sohana and William Pourmajidi and John Steinbacher and Andriy Miranskyy},
+  journal={arXiv preprint arXiv:2410.21092},
+  year={2024},
+  doi={10.48550/arXiv.2410.21092}
+}
+```
+
+---
+
+If you encounter any issues, please feel free to reach out for support by opening an [issue](https://github.com/sohanasarah/CloudHeatMap/issues).
