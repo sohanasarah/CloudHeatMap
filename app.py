@@ -14,8 +14,8 @@ import dash_bootstrap_components as dbc
 # ------------------Retrieve Data---------------------
 while True:
     try:
-        start_date = datetime(2025, 1, 1, 0, 0)  # September 1, 2022, 00:00:00 UTC
-        end_date = datetime(2025, 1, 1, 23, 59, 59)     # September 2, 2022, 00:00:00 UTC
+        start_date = datetime(2025, 1, 1, 0, 0)  # January 1, 2025, 00:00:00 UTC
+        end_date = datetime(2025, 1, 1, 23, 59, 59)  # January 1, 2025, 23:59:59 UTC
         
         # User inputs the desired hours (for example, from 10 AM to 3 PM)
         start_hour = int(input("Enter the start hour (0-23): "))  # E.g., 10
@@ -37,7 +37,7 @@ while True:
         if time_interval < 1:
             raise ValueError
 
-        # data folder contains data for September 1, 2022
+        # data folder containing the data
         dir_name = './data/'
         raw_data = data_loader.get_data(dir_name, start_timestamp, end_timestamp)
 
