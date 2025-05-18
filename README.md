@@ -25,7 +25,7 @@ Ensure you have the following installed:
 ## Project Structure
 
 ```
-obs-pipe/
+CloudHeatMap/
 ├── app.py                        # Main application file
 ├── Dockerfile                    # For containerization
 ├── requirements.txt              # Project dependencies
@@ -43,8 +43,8 @@ obs-pipe/
 Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/miranska/obs-pipe.git
-   cd obs-pipe
+   git clone https://github.com/sohanasarah/CloudHeatMap.git
+   cd CloudHeatMap
    ```
 
 ### Running the Application
