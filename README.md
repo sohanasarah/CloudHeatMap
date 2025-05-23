@@ -1,9 +1,13 @@
 # CloudHeatMap: Visualizing Large-Scale Cloud System Health
+[![arXiv](https://img.shields.io/badge/arXiv-2410.21092-b31b1b.svg)](https://arxiv.org/abs/2410.21092)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=IhczNjFuEIM)
+
 
 CloudHeatMap is a heatmap-based visualization tool designed to monitor the health and performance of large-scale cloud systems. It visualizes key metrics like call volumes, response times, and HTTP response codes across microservices and data centers. By providing proactive monitoring capabilities, CloudHeatMap helps cloud operators identify and resolve issues before they impact system reliability and user experience.
 
 This work is presented in the FSE 2025 [Demonstration Track paper](https://conf.researchr.org/details/fse-2025/fse-2025-demonstrations/15/CloudHeatMap-Heatmap-Based-Monitoring-for-Large-Scale-Cloud-Systems), “CloudHeatMap: Heatmap-Based Monitoring for Large-Scale Cloud Systems.”
 The preprint is available [here](https://arxiv.org/abs/2410.21092).
+A video demonstration is available on [YouTube](https://www.youtube.com/watch?v=IhczNjFuEIM).
 For more details, see the [M.Sc. thesis by Sarah Sohana (2022)](https://rshare.library.torontomu.ca/articles/thesis/Heatmap_Visualization_for_Monitoring_Health_of_a_Large-scale_Cloud_System/26052514?file=47103691).
 
 ## Features
